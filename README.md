@@ -5,7 +5,12 @@
 #### Step 1: Create S3 Table Buckets (pyiceberg-blog-bucket)
 ![image](https://github.com/user-attachments/assets/14a01d58-89ee-4bb5-8750-b853460b370d)
 
-#### Step 2: Create tables in S3 Table using Athena 
+
+#### Step 2: create Name space 
+
+![image](https://github.com/user-attachments/assets/17fe7751-fcde-4455-ad99-447cb9da4e9c)
+
+#### Step 3: Create tables in S3 Table using Athena 
 ```
 --Use the following statement to create a table in your S3 Table bucket.
 CREATE TABLE `s3tablescatalog`.daily_sales (
@@ -42,6 +47,6 @@ ORDER BY total_revenue DESC;
 */
 ```
 
-#### Step 3: Use Jupyter notebook to Query the Data with Pyiceberg and DuckDB and Trino 
+#### Step 4: Use Jupyter notebook to Query the Data with Pyiceberg and DuckDB and Trino 
 
 
