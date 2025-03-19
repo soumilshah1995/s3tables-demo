@@ -1,8 +1,6 @@
-# s3tables-demo
-s3tables-demo
 
 
-# Steps 
+## Steps 
 
 #### Step 1: Create S3 Table Buckets (pyiceberg-blog-bucket)
 ![image](https://github.com/user-attachments/assets/14a01d58-89ee-4bb5-8750-b853460b370d)
